@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 34px;
+    color: blue;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 20px;
+    color: #3d69ab;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    border: none;
+}
+
+tr{
+    display: flex;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 1px solid gainsboro;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+}
+button{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(30, 117, 30);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+#msg{
+    color: orangered;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.hide{
+    display: none;
+}

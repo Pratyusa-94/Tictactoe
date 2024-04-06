@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>TIC TAC TOE</h1>
+        <div class="msg-container hide">
+            <p id="msg"></p>
+        </div>
+        <p>Game starts just by tapping on the box</p>
+        <p>First goes Player X,then Player O</p>
+        <div class="container">
+            <table class="main">
+                <tr>
+                    <td class="box" id="1"></td>
+                    <td class="box" id="2"></td>
+                    <td class="box" id="3"></td>
+                </tr>
+                <tr>
+                    <td class="box" id="4"></td>
+                    <td class="box" id="5"></td>
+                    <td class="box" id="6"></td>
+                </tr>
+                <tr>
+                    <td class="box" id="7"></td>
+                    <td class="box" id="8"></td>
+                    <td class="box" id="9"></td>
+                </tr>
+           </table>
+           <button id="reset-btn">RESET</button>
+           <p id ="print"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
